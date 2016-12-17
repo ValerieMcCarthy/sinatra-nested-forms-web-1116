@@ -1,1 +1,20 @@
-<h1>Make your form here</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Puppy Home Page</title>
+  </head>
+  <body>
+  <form method="POST" action="pirates">
+    <p>Your Name:<input type="text" name="pirate[name]"></p>
+    <p>Your Weight:<input type="text" name="pirate[weight]"></p>
+    <p>Your Height:<input type="text" name="pirate[height]"></p>
+    <p>Your Ship Name:<input id="ship_name_1" type="text" name="pirate[ships][][name]"></p>
+    <p>Your Ship Type:<input id="ship_type_1" type="text" name="pirate[ships][][type]"></p>
+    <p>Your Ship Booty:<input id="ship_booty_1" type="text" name="pirate[ships][][booty]"></p>
+    <p>Your Ship Name:<input id="ship_name_2" type="text" name="pirate[ships][][name]"></p>
+    <p>Your Ship Type:<input id="ship_type_2" type="text" name="pirate[ships][][type]"></p>
+    <p>Your Ship Booty:<input id="ship_booty_2" type="text" name="pirate[ships][][booty]"></p>
+    <input type="submit" value="Submit"></form>
+  </body>
+</html>
